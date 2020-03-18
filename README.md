@@ -1,6 +1,6 @@
 # Stomach
 - **运行程序** \
-  `python cut_image.py -i='your inout' -o='your output'`
+  `python cut_image.py -i='your input' -o='your output'`
 - **参数说明** \
     -i: 表示数据文件的根目录(默认为'./dataset') \
     -o: 表示文件的输出目录(默认为'./out_put') \
