@@ -2,8 +2,6 @@ import os
 import cv2
 import openslide as opsl
 import numpy as np
-from PIL import Image
-from libtiff import TIFF
 import threadpool
 import pyvips
 from kmeans import kmeans
