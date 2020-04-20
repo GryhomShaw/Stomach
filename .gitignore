@@ -37,10 +37,11 @@ ipython_config.py
 __pypackages__/
 
 #my project
+data/
 dataset/
 output/
 temp/
 test/
-data/
+
 
 
