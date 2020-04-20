@@ -40,5 +40,7 @@ __pypackages__/
 dataset/
 output/
 temp/
+test/
+data/
 
 
