@@ -2,7 +2,7 @@ import os
 import json
 from xml.dom.minidom import Document
 
-label_path = './data/B201963147-01'
+label_path = './data'
 label_name = 'data.json'
 with open(os.path.join(label_path, label_name), 'r') as f:
     labels = json.load(f)
@@ -55,5 +55,5 @@ for each_group in category_set:
 ASAP_Annotations.appendChild(AnnotationGroups)
 
 with open(os.path.join(label_path, 'label.xml'), 'w') as f:
-    doc.writexml(f, indent='\t', newl='\n', addindent = '\t', encoding='utf-8')
+    doc.writexml(f, indent='\t', newl='\n', addindent='\t', encoding='utf-8')
 

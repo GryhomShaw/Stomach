@@ -43,5 +43,9 @@ output/
 temp/
 test/
 
-
-
+*.xml
+*.tiff
+*.tif
+*.xml
+*.tiff
+*.json
